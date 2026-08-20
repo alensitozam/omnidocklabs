@@ -1,0 +1,138 @@
+{
+  "Home": {
+    "nav": {
+      "products": "Productos",
+      "about": "Nosotros",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "badge": "Herramientas útiles para la web moderna",
+      "title1": "Herramientas simples.",
+      "title2": "Trabaja mejor en digital.",
+      "description": "En OmniDock Labs creamos herramientas digitales enfocadas en eliminar fricciones del trabajo cotidiano, para que investigar, organizar información y avanzar sea mucho más simple.",
+      "primary": "Explorar productos",
+      "secondary": "Conocer OmniDock Labs"
+    },
+    "products": {
+      "eyebrow": "Nuestros productos",
+      "title": "Pequeñas herramientas para resolver problemas reales.",
+      "description": "Estamos creando una colección de productos enfocados en hacer que las tareas digitales del día a día sean más rápidas, simples y ordenadas.",
+      "available": "Disponible ahora",
+      "comingSoon": "Próximamente",
+      "snipdockDescription": "Recopila textos, imágenes y enlaces mientras navegas. SnipDock limpia y prepara tu investigación para llevarla directamente a Word, Google Docs o Notion.",
+      "discover": "Descubrir SnipDock",
+      "project2": "Nuevo proyecto",
+      "project2Description": "Una nueva herramienta de productividad está actualmente en desarrollo en OmniDock Labs.",
+      "project3": "Nuevo proyecto",
+      "project3Description": "Nuevas herramientas enfocadas y prácticas están en camino."
+    },
+    "about": {
+      "eyebrow": "Sobre OmniDock Labs",
+      "title": "Software útil, sin complejidad innecesaria.",
+      "description": "OmniDock Labs es un estudio independiente de software que crea productos digitales prácticos a partir de problemas reales del día a día. Nuestro objetivo es simple: desarrollar herramientas fáciles de entender, agradables de usar y realmente útiles."
+    },
+    "contact": {
+      "title": "¿Quieres ponerte en contacto?",
+      "description": "¿Tienes una pregunta, comentario o idea? Nos encantará saber de ti.",
+      "button": "Contáctanos"
+    },
+    "footer": {
+      "copyright": "© 2026 OmniDock Labs. Todos los derechos reservados.",
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    }
+  },
+  "SnipDock": {
+    "nav": {
+      "home": "OmniDock Labs",
+      "features": "Funciones",
+      "pricing": "Planes",
+      "getPro": "Ver Pro"
+    },
+    "hero": {
+      "badge": "Espacio de investigación para Chrome",
+      "title1": "Recopila lo importante.",
+      "title2": "Mantén tu investigación bajo control.",
+      "description": "SnipDock te permite recopilar textos, imágenes y enlaces desde distintas pestañas, limpiar el contenido y dejar todo preparado para Word, Google Docs o Notion.",
+      "primary": "Ver planes Pro",
+      "secondary": "Explorar funciones",
+      "note": "Creado para Chrome"
+    },
+    "steps": {
+      "eyebrow": "Cómo funciona",
+      "title": "Investiga sin el caos de copiar y pegar.",
+      "description": "Pasa de tener información repartida entre muchas pestañas a contenido ordenado y listo para usar en tres pasos.",
+      "collectTitle": "1. Recopila",
+      "collectText": "Guarda textos, imágenes y enlaces desde distintas pestañas usando las herramientas de SnipDock.",
+      "cleanTitle": "2. Limpia",
+      "cleanText": "Reduce duplicados, formatos innecesarios y elementos molestos propios de muchas páginas web.",
+      "exportTitle": "3. Úsalo",
+      "exportText": "Copia tu investigación limpia en Word, Google Docs, Notion u otras herramientas."
+    },
+    "features": {
+      "eyebrow": "Funciones",
+      "title": "Un solo lugar para todo lo que encuentras en la web.",
+      "description": "SnipDock está pensado para estudiantes, redactores, investigadores y cualquier persona que recopile información online con frecuencia.",
+      "textTitle": "Recopila textos",
+      "textText": "Guarda fragmentos seleccionados desde distintas pestañas sin interrumpir tu investigación.",
+      "imagesTitle": "Conserva imágenes",
+      "imagesText": "Mantén referencias visuales útiles junto con el resto del material recopilado.",
+      "linksTitle": "Guarda fuentes",
+      "linksText": "Conserva enlaces y referencias de origen junto a tu investigación.",
+      "multitabTitle": "Trabaja entre pestañas",
+      "multitabText": "Reúne información de distintas páginas dentro del mismo espacio temporal.",
+      "cleanTitle": "Limpia contenido",
+      "cleanText": "Reduce duplicados, formatos no deseados y elementos basura habituales de la web.",
+      "copyTitle": "Copia todo limpio",
+      "copyText": "Prepara textos, imágenes y fuentes juntos para llevarlos a tu herramienta de trabajo."
+    },
+    "compare": {
+      "eyebrow": "Free vs Pro",
+      "title": "Empieza gratis. Pásate a Pro cuando SnipDock se vuelva parte de tu rutina.",
+      "description": "La versión gratuita te permite probar el flujo completo antes de pasar a Pro.",
+      "feature": "Función",
+      "free": "Free",
+      "pro": "Pro",
+      "collect": "Recopilar textos, imágenes y enlaces",
+      "session": "Elementos por espacio",
+      "history": "Elementos históricos",
+      "clean": "Limpieza del contenido",
+      "copy": "Copiar a Word, Docs y Notion",
+      "proExperience": "Acceso Pro completo",
+      "sessionFree": "20",
+      "sessionPro": "Ilimitado",
+      "historyFree": "100",
+      "historyPro": "Ilimitado"
+    },
+    "pricing": {
+      "eyebrow": "SnipDock Pro",
+      "title": "Elige por cuánto tiempo quieres acceso Pro.",
+      "description": "Todos los planes Pro incluyen la misma experiencia. Solo cambia el período de acceso.",
+      "monthly": "1 mes",
+      "monthlyNote": "Acceso flexible",
+      "monthlyPrice": "US$2,99",
+      "monthlyPeriod": "",
+      "quarterly": "3 meses",
+      "quarterlyNote": "Ideal para uso habitual",
+      "quarterlyPrice": "US$7,49",
+      "quarterlyPeriod": "",
+      "annual": "1 año",
+      "annualNote": "Mejor valor a largo plazo",
+      "annualPrice": "US$24,99",
+      "annualPeriod": "",
+      "popular": "MÁS ELEGIDO",
+      "benefit1": "Espacio ilimitado",
+      "benefit2": "Historial ilimitado",
+      "benefit3": "Todas las funciones Pro",
+      "monthlyButton": "Elegir 1 mes",
+      "quarterlyButton": "Elegir 3 meses",
+      "annualButton": "Elegir 1 año",
+      "checkoutNote": "El pago internacional seguro se habilitará antes del lanzamiento."
+    },
+    "final": {
+      "title": "Dedica menos tiempo a ordenar tu investigación.",
+      "description": "Guarda lo que encuentras, límpialo y llévalo directamente a las herramientas donde realmente trabajas.",
+      "button": "Ver planes Pro"
+    }
+  }
+}

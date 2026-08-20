@@ -1,0 +1,138 @@
+{
+  "Home": {
+    "nav": {
+      "products": "Products",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "hero": {
+      "badge": "Useful tools for the modern web",
+      "title1": "Simple tools.",
+      "title2": "Better digital work.",
+      "description": "OmniDock Labs builds focused digital tools that remove friction from everyday work, helping you research, organize and get things done more efficiently.",
+      "primary": "Explore products",
+      "secondary": "About OmniDock Labs"
+    },
+    "products": {
+      "eyebrow": "Our products",
+      "title": "Small tools that solve real problems.",
+      "description": "We're building a collection of focused products designed to make everyday digital tasks faster, simpler and more organized.",
+      "available": "Available now",
+      "comingSoon": "Coming soon",
+      "snipdockDescription": "Collect text, images and links while you browse. SnipDock cleans and prepares your research so it's ready for Word, Google Docs or Notion.",
+      "discover": "Discover SnipDock",
+      "project2": "New project",
+      "project2Description": "A new productivity tool is currently being developed at OmniDock Labs.",
+      "project3": "New project",
+      "project3Description": "More focused tools are on the way."
+    },
+    "about": {
+      "eyebrow": "About OmniDock Labs",
+      "title": "Useful software without unnecessary complexity.",
+      "description": "OmniDock Labs is an independent software studio building practical digital products around real, everyday problems. Our goal is simple: create tools that are easy to understand, pleasant to use and genuinely useful."
+    },
+    "contact": {
+      "title": "Want to get in touch?",
+      "description": "Questions, feedback or ideas? We'd be happy to hear from you.",
+      "button": "Contact us"
+    },
+    "footer": {
+      "copyright": "© 2026 OmniDock Labs. All rights reserved.",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    }
+  },
+  "SnipDock": {
+    "nav": {
+      "home": "OmniDock Labs",
+      "features": "Features",
+      "pricing": "Pricing",
+      "getPro": "Get Pro"
+    },
+    "hero": {
+      "badge": "Research workspace for Chrome",
+      "title1": "Collect what matters.",
+      "title2": "Keep research under control.",
+      "description": "SnipDock lets you collect text, images and links from different tabs, clean the content and prepare everything for Word, Google Docs or Notion.",
+      "primary": "See Pro plans",
+      "secondary": "Explore features",
+      "note": "Built for Chrome"
+    },
+    "steps": {
+      "eyebrow": "How it works",
+      "title": "Research without the copy-paste chaos.",
+      "description": "Move from scattered tabs to organized, ready-to-use content in three simple steps.",
+      "collectTitle": "1. Collect",
+      "collectText": "Save text, images and links from any tab using SnipDock's browser tools.",
+      "cleanTitle": "2. Clean",
+      "cleanText": "Remove duplicated or unnecessary web clutter and keep the useful content.",
+      "exportTitle": "3. Use",
+      "exportText": "Copy your research cleanly into Word, Google Docs, Notion and other tools."
+    },
+    "features": {
+      "eyebrow": "Features",
+      "title": "One place for the material you find across the web.",
+      "description": "SnipDock is designed for students, writers, researchers and anyone who regularly gathers information online.",
+      "textTitle": "Collect text",
+      "textText": "Save selected text from different tabs without interrupting your research.",
+      "imagesTitle": "Keep images",
+      "imagesText": "Store useful visual references together with the rest of your collected material.",
+      "linksTitle": "Save sources",
+      "linksText": "Keep links and source references attached to your research.",
+      "multitabTitle": "Work across tabs",
+      "multitabText": "Gather information from multiple pages into the same temporary workspace.",
+      "cleanTitle": "Clean content",
+      "cleanText": "Reduce duplicated content, unwanted formatting and common web clutter.",
+      "copyTitle": "Copy everything clean",
+      "copyText": "Prepare texts, images and sources together for pasting into your preferred workspace."
+    },
+    "compare": {
+      "eyebrow": "Free vs Pro",
+      "title": "Start free. Upgrade when SnipDock becomes part of your workflow.",
+      "description": "The free version lets you test the complete workflow before moving to Pro.",
+      "feature": "Feature",
+      "free": "Free",
+      "pro": "Pro",
+      "collect": "Collect text, images and links",
+      "session": "Items per workspace",
+      "history": "Historical items",
+      "clean": "Clean collected content",
+      "copy": "Copy to Word, Docs and Notion",
+      "proExperience": "Full Pro access",
+      "sessionFree": "20",
+      "sessionPro": "Unlimited",
+      "historyFree": "100",
+      "historyPro": "Unlimited"
+    },
+    "pricing": {
+      "eyebrow": "SnipDock Pro",
+      "title": "Choose how long you want Pro access.",
+      "description": "All Pro plans unlock the same experience. Only the access period changes.",
+      "monthly": "1 Month",
+      "monthlyNote": "Flexible access",
+      "monthlyPrice": "$2.99",
+      "monthlyPeriod": "USD",
+      "quarterly": "3 Months",
+      "quarterlyNote": "Best for regular use",
+      "quarterlyPrice": "$7.49",
+      "quarterlyPeriod": "USD",
+      "annual": "1 Year",
+      "annualNote": "Best long-term value",
+      "annualPrice": "$24.99",
+      "annualPeriod": "USD",
+      "popular": "MOST POPULAR",
+      "benefit1": "Unlimited workspace",
+      "benefit2": "Unlimited history",
+      "benefit3": "Full Pro functionality",
+      "monthlyButton": "Choose 1 Month",
+      "quarterlyButton": "Choose 3 Months",
+      "annualButton": "Choose 1 Year",
+      "checkoutNote": "Secure international checkout will be added before launch."
+    },
+    "final": {
+      "title": "Spend less time managing research.",
+      "description": "Keep what you find, clean it and move it into the tools where your work actually happens.",
+      "button": "View Pro plans"
+    }
+  }
+}
