@@ -2,25 +2,295 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f172a;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/*
+  IMPORTANTE:
+  No usamos color: inherit aquí,
+  porque interfería con los colores de Tailwind
+  dentro de los botones.
+*/
+a {
+  text-decoration: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* =========================================================
+   SNIPDOCK — FLOATING ANIMATIONS
+   ========================================================= */
+
+@keyframes snipFloatLeft {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-3deg);
+  }
+
+  50% {
+    transform: translateY(-12px) rotate(-2deg);
+  }
+}
+
+@keyframes snipFloatRight {
+  0%,
+  100% {
+    transform: translateY(0) rotate(3deg);
+  }
+
+  50% {
+    transform: translateY(11px) rotate(2deg);
+  }
+}
+
+@keyframes snipFloatMain {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes snipIconBreathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.06);
+  }
+}
+
+.snip-float-left {
+  animation: snipFloatLeft 5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.snip-float-right {
+  animation: snipFloatRight 6s ease-in-out infinite;
+  will-change: transform;
+}
+
+.snip-float-main {
+  animation: snipFloatMain 7s ease-in-out infinite;
+  will-change: transform;
+}
+
+.snip-icon-breathe {
+  animation: snipIconBreathe 4s ease-in-out infinite;
+  will-change: transform;
+}
+
+
+/* =========================================================
+   OMNIDOCK LABS — TECHNOLOGY PARTICLES
+   ========================================================= */
+
+/*
+  Puntos muy pequeños que se desplazan verticalmente.
+  La intención es que se sientan como "señales digitales",
+  no como nieve o confeti.
+*/
+
+@keyframes omniParticlesFall {
+  0% {
+    background-position:
+      0 0,
+      40px -80px,
+      90px -160px;
+  }
+
+  100% {
+    background-position:
+      0 420px,
+      40px 340px,
+      90px 260px;
+  }
+}
+
+@keyframes omniParticlesFallSlow {
+  0% {
+    background-position:
+      20px -120px,
+      100px -220px;
+  }
+
+  100% {
+    background-position:
+      20px 400px,
+      100px 300px;
+  }
+}
+
+.omni-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.55;
+
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(129, 140, 248, 0.7) 0 1px,
+      transparent 1.5px
+    ),
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.42) 0 1px,
+      transparent 1.5px
+    ),
+    radial-gradient(
+      circle,
+      rgba(165, 180, 252, 0.35) 0 1.2px,
+      transparent 1.7px
+    );
+
+  background-size:
+    110px 110px,
+    170px 170px,
+    230px 230px;
+
+  animation: omniParticlesFall 22s linear infinite;
+}
+
+.omni-particles-soft {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.28;
+
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.5) 0 1px,
+      transparent 1.7px
+    ),
+    radial-gradient(
+      circle,
+      rgba(129, 140, 248, 0.65) 0 1px,
+      transparent 1.8px
+    );
+
+  background-size:
+    210px 210px,
+    290px 290px;
+
+  animation: omniParticlesFallSlow 32s linear infinite;
+}
+
+
+/* =========================================================
+   OMNIDOCK — SUBTLE GLOW
+   ========================================================= */
+
+@keyframes omniGlow {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.omni-glow {
+  animation: omniGlow 9s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   ACCESSIBILITY
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .snip-float-left,
+  .snip-float-right,
+  .snip-float-main,
+  .snip-icon-breathe,
+  .omni-particles,
+  .omni-particles-soft,
+  .omni-glow {
+    animation: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  button,
+  a {
+    touch-action: manipulation;
+  }
+
+  /*
+    En móvil reducimos la cantidad visual de partículas
+    para que el hero siga limpio.
+  */
+  .omni-particles {
+    opacity: 0.35;
+  }
+
+  .omni-particles-soft {
+    opacity: 0.18;
+  }
 }

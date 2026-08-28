@@ -2,44 +2,62 @@
   "Home": {
     "nav": {
       "products": "Produtos",
-      "about": "Sobre",
+      "company": "Empresa",
       "contact": "Contato"
     },
     "hero": {
-      "badge": "Ferramentas úteis para a web moderna",
-      "title1": "Ferramentas simples.",
-      "title2": "Um jeito melhor de trabalhar.",
-      "description": "Na OmniDock Labs, criamos ferramentas digitais focadas em tornar o trabalho do dia a dia mais simples, ajudando você a pesquisar, organizar informações e avançar com mais eficiência.",
-      "primary": "Conhecer os produtos",
-      "secondary": "Sobre a OmniDock Labs"
+      "badge": "Estúdio independente de software",
+      "title1": "Software criado para",
+      "title2": "tornar o trabalho mais simples.",
+      "description": "Na OmniDock Labs, criamos produtos digitais focados em reduzir atritos do trabalho cotidiano e tornar tarefas úteis mais simples.",
+      "primary": "Conhecer nossos produtos",
+      "secondary": "Sobre a OmniDock Labs",
+      "strip1Label": "Foco",
+      "strip1Text": "Produtos digitais com propósito claro",
+      "strip2Label": "Abordagem",
+      "strip2Text": "Simples, prática e cuidadosa",
+      "strip3Label": "Plataforma",
+      "strip3Text": "Criados para a web moderna"
     },
     "products": {
-      "eyebrow": "Nossos produtos",
-      "title": "Ferramentas enxutas para problemas reais.",
-      "description": "Estamos criando uma coleção de produtos pensados para tornar tarefas digitais do dia a dia mais rápidas, simples e organizadas.",
+      "eyebrow": "Produtos",
+      "title": "Software focado em resolver problemas reais.",
+      "description": "Criamos produtos objetivos e funcionais, desenvolvidos para resolver necessidades específicas sem adicionar complexidade desnecessária.",
       "available": "Disponível agora",
       "comingSoon": "Em breve",
-      "snipdockDescription": "Colete textos, imagens e links enquanto navega. O SnipDock limpa e prepara sua pesquisa para usar no Word, Google Docs ou Notion.",
+      "snipdockDescription": "Transforme uma pesquisa espalhada por várias abas em informações organizadas e prontas para usar. Colete textos, imagens e links, limpe o conteúdo e leve tudo para Word, Google Docs ou Notion.",
       "discover": "Conhecer o SnipDock",
-      "project2": "Novo projeto",
+      "project2": "Próximo produto",
       "project2Description": "Uma nova ferramenta de produtividade está sendo desenvolvida pela OmniDock Labs.",
-      "project3": "Novo projeto",
-      "project3Description": "Mais ferramentas práticas e focadas estão a caminho."
+      "project3": "Produto futuro",
+      "project3Description": "Mais produtos práticos farão parte do portfólio da OmniDock Labs conforme ele crescer."
     },
-    "about": {
-      "eyebrow": "Sobre a OmniDock Labs",
-      "title": "Software útil, sem complicação desnecessária.",
-      "description": "A OmniDock Labs é um estúdio independente de software que transforma problemas reais do dia a dia em produtos digitais práticos. Nosso objetivo é simples: criar ferramentas fáceis de entender, agradáveis de usar e realmente úteis."
+    "principles": {
+      "eyebrow": "Como construímos",
+      "title": "Menos atrito. Software mais útil.",
+      "focusTitle": "Focado",
+      "focusText": "Cada produto parte de um problema claro e de uma forma específica de trabalhar.",
+      "simpleTitle": "Simples",
+      "simpleText": "Reduzimos etapas desnecessárias e mantemos a experiência fácil de entender.",
+      "usefulTitle": "Útil",
+      "usefulText": "Cada recurso deve gerar valor real e justificar seu lugar no produto."
+    },
+    "company": {
+      "eyebrow": "Empresa",
+      "title": "Software independente, criado com visão de longo prazo.",
+      "description": "A OmniDock Labs é um estúdio independente de software focado em criar produtos digitais práticos para a web moderna.",
+      "description2": "Nos concentramos em ferramentas com valor claro, decisões de produto cuidadosas e experiências que continuam simples à medida que evoluem."
     },
     "contact": {
-      "title": "Quer falar com a gente?",
-      "description": "Tem alguma dúvida, sugestão ou ideia? Vamos gostar de ouvir você.",
-      "button": "Entre em contato"
+      "eyebrow": "Contato",
+      "title": "Tem algo que vale a pena conversar?",
+      "description": "Dúvidas, feedback, parcerias ou ideias de produto são sempre bem-vindos.",
+      "button": "Fale com a gente"
     },
     "footer": {
-      "copyright": "© 2026 OmniDock Labs. Todos os direitos reservados.",
       "privacy": "Privacidade",
-      "terms": "Termos"
+      "terms": "Termos",
+      "copyright": "© 2026 OmniDock Labs. Todos os direitos reservados."
     }
   },
   "SnipDock": {
@@ -50,46 +68,67 @@
       "getPro": "Ver Pro"
     },
     "hero": {
-      "badge": "Espaço de pesquisa para Chrome",
-      "title1": "Guarde o que importa.",
-      "title2": "Mantenha sua pesquisa organizada.",
-      "description": "O SnipDock permite coletar textos, imagens e links de várias abas, limpar o conteúdo e deixar tudo pronto para usar no Word, Google Docs ou Notion.",
+      "badge": "Menos copiar e colar. Mais tempo para o trabalho de verdade.",
+      "title1": "Pesquise sem perder tempo",
+      "title2": "copiando e organizando.",
+      "description": "Colete textos, imagens e fontes de várias abas enquanto navega. O SnipDock reúne tudo, limpa o conteúdo e prepara sua pesquisa para Word, Google Docs ou Notion.",
       "primary": "Ver planos Pro",
-      "secondary": "Conhecer os recursos",
+      "secondary": "Ver como funciona",
       "note": "Criado para Chrome"
     },
     "steps": {
-      "eyebrow": "Como funciona",
-      "title": "Pesquise sem a bagunça do copiar e colar.",
-      "description": "Transforme informações espalhadas por várias abas em conteúdo organizado e pronto para usar em três passos.",
-      "collectTitle": "1. Colete",
-      "collectText": "Salve textos, imagens e links de diferentes abas usando as ferramentas do SnipDock.",
-      "cleanTitle": "2. Limpe",
-      "cleanText": "Reduza conteúdos duplicados, formatação desnecessária e elementos comuns que atrapalham ao copiar da web.",
-      "exportTitle": "3. Use",
-      "exportText": "Leve sua pesquisa limpa para Word, Google Docs, Notion ou outras ferramentas."
+      "eyebrow": "Da pesquisa ao uso",
+      "title": "Menos trabalho repetitivo entre pesquisar e começar a produzir.",
+      "description": "O SnipDock reduz boa parte das tarefas manuais que normalmente começam depois que você encontra uma informação útil.",
+      "collectTitle": "1. Colete enquanto pesquisa",
+      "collectText": "Salve textos, imagens e links de diferentes abas sem precisar parar para organizar cada item separadamente.",
+      "cleanTitle": "2. Deixe a bagunça para trás",
+      "cleanText": "Reduza conteúdos duplicados, formatação desnecessária e elementos da web que normalmente precisariam ser limpos manualmente.",
+      "exportTitle": "3. Comece a trabalhar",
+      "exportText": "Leve sua pesquisa organizada para Word, Google Docs ou Notion e use seu tempo no conteúdo, não no copiar e colar."
+    },
+    "beforeAfter": {
+      "eyebrow": "Antes e depois",
+      "title": "Pesquisar não deveria significar passar horas organizando o que você encontrou.",
+      "description": "Encontrar informação não é o problema. O problema é todo o trabalho manual que vem depois.",
+      "beforeLabel": "SEM SNIPDOCK",
+      "beforeTitle": "O fluxo de sempre",
+      "before1": "Abrir várias abas",
+      "before2": "Copiar textos um por um",
+      "before3": "Baixar ou salvar imagens separadamente",
+      "before4": "Copiar links e controlar as fontes",
+      "before5": "Remover formatação e conteúdo desnecessário",
+      "before6": "Organizar tudo antes de poder usar",
+      "afterLabel": "COM SNIPDOCK",
+      "afterTitle": "Um caminho muito mais direto",
+      "after1": "Pesquise normalmente",
+      "after2": "Colete o que importa enquanto navega",
+      "after3": "Mantenha textos, imagens e fontes juntos",
+      "after4": "Limpe o material coletado",
+      "after5": "Copie tudo pronto para trabalhar",
+      "result": "Menos tarefas mecânicas. Mais tempo para analisar, escrever e criar."
     },
     "features": {
-      "eyebrow": "Recursos",
-      "title": "Um só lugar para tudo o que você encontra na web.",
-      "description": "O SnipDock foi pensado para estudantes, redatores, pesquisadores e qualquer pessoa que reúna informações online com frequência.",
-      "textTitle": "Colete textos",
-      "textText": "Salve trechos selecionados de diferentes abas sem interromper sua pesquisa.",
-      "imagesTitle": "Guarde imagens",
-      "imagesText": "Mantenha referências visuais úteis junto com o restante do material coletado.",
-      "linksTitle": "Salve fontes",
-      "linksText": "Mantenha links e referências de origem junto com sua pesquisa.",
-      "multitabTitle": "Trabalhe entre abas",
-      "multitabText": "Reúna informações de diferentes páginas no mesmo espaço temporário.",
-      "cleanTitle": "Limpe o conteúdo",
-      "cleanText": "Reduza duplicações, formatação indesejada e elementos desnecessários das páginas.",
-      "copyTitle": "Copie tudo limpo",
-      "copyText": "Prepare textos, imagens e fontes juntos para levar ao seu ambiente de trabalho."
+      "eyebrow": "Tudo junto",
+      "title": "Pare de espalhar sua pesquisa entre abas, arquivos e documentos.",
+      "description": "O SnipDock mantém as partes úteis da sua pesquisa em um único espaço até você estar pronto para utilizá-las.",
+      "textTitle": "Guarde os textos úteis",
+      "textText": "Colete os trechos que realmente importam sem alternar constantemente entre navegador e documento.",
+      "imagesTitle": "Mantenha imagens com a pesquisa",
+      "imagesText": "Salve referências visuais junto com o contexto em que foram encontradas.",
+      "linksTitle": "Não perca suas fontes",
+      "linksText": "Mantenha links e referências associados à pesquisa para não precisar procurá-los novamente.",
+      "multitabTitle": "Pesquise entre abas",
+      "multitabText": "Reúna informações de diferentes páginas em um só espaço enquanto continua navegando.",
+      "cleanTitle": "Reduza o trabalho de limpeza",
+      "cleanText": "Remova parte da formatação desnecessária, conteúdos duplicados e elementos comuns da web.",
+      "copyTitle": "Leve tudo para onde você trabalha",
+      "copyText": "Prepare textos, imagens e fontes para Word, Google Docs, Notion e outras ferramentas."
     },
     "compare": {
       "eyebrow": "Free vs Pro",
-      "title": "Comece grátis. Migre para o Pro quando o SnipDock fizer parte da sua rotina.",
-      "description": "A versão gratuita permite testar todo o fluxo antes de escolher o Pro.",
+      "title": "Teste todo o fluxo gratuitamente. Migre para o Pro quando o SnipDock começar a poupar seu trabalho.",
+      "description": "Comece sem pagar e descubra se o SnipDock combina com sua forma de pesquisar antes de remover os limites.",
       "feature": "Recurso",
       "free": "Free",
       "pro": "Pro",
@@ -106,10 +145,10 @@
     },
     "pricing": {
       "eyebrow": "SnipDock Pro",
-      "title": "Escolha por quanto tempo você quer acesso Pro.",
-      "description": "Todos os planos Pro oferecem a mesma experiência. O que muda é apenas o período de acesso.",
+      "title": "Quando copiar e organizar deixa de fazer parte do trabalho.",
+      "description": "Todos os planos Pro liberam a mesma experiência sem limites. Escolha apenas por quanto tempo você quer acesso.",
       "monthly": "1 mês",
-      "monthlyNote": "Acesso flexível",
+      "monthlyNote": "Experimente o Pro no seu ritmo",
       "monthlyPrice": "US$2,99",
       "monthlyPeriod": "",
       "quarterly": "3 meses",
@@ -121,18 +160,18 @@
       "annualPrice": "US$24,99",
       "annualPeriod": "",
       "popular": "MAIS ESCOLHIDO",
-      "benefit1": "Espaço ilimitado",
+      "benefit1": "Espaço de trabalho ilimitado",
       "benefit2": "Histórico ilimitado",
-      "benefit3": "Todos os recursos Pro",
+      "benefit3": "Experiência Pro completa",
       "monthlyButton": "Escolher 1 mês",
       "quarterlyButton": "Escolher 3 meses",
       "annualButton": "Escolher 1 ano",
       "checkoutNote": "O pagamento internacional seguro será habilitado antes do lançamento."
     },
     "final": {
-      "title": "Gaste menos tempo organizando sua pesquisa.",
-      "description": "Guarde o que encontrar, limpe o conteúdo e leve tudo diretamente para as ferramentas onde você trabalha.",
-      "button": "Ver planos Pro"
+      "title": "Seu tempo vale mais do que copiar, colar e organizar informações.",
+      "description": "Passe mais tempo entendendo o que encontrou e menos tempo preparando manualmente o material antes de poder utilizá-lo.",
+      "button": "Começar com o SnipDock"
     }
   }
 }

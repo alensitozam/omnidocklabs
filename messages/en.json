@@ -2,44 +2,62 @@
   "Home": {
     "nav": {
       "products": "Products",
-      "about": "About",
+      "company": "Company",
       "contact": "Contact"
     },
     "hero": {
-      "badge": "Useful tools for the modern web",
-      "title1": "Simple tools.",
-      "title2": "Better digital work.",
-      "description": "OmniDock Labs builds focused digital tools that remove friction from everyday work, helping you research, organize and get things done more efficiently.",
-      "primary": "Explore products",
-      "secondary": "About OmniDock Labs"
+      "badge": "Independent software studio",
+      "title1": "Software built to",
+      "title2": "make work simpler.",
+      "description": "OmniDock Labs creates focused digital products that remove friction from everyday workflows and make useful work feel simpler.",
+      "primary": "Explore our products",
+      "secondary": "About OmniDock Labs",
+      "strip1Label": "Focus",
+      "strip1Text": "Purpose-built digital products",
+      "strip2Label": "Approach",
+      "strip2Text": "Simple, practical and thoughtful",
+      "strip3Label": "Platform",
+      "strip3Text": "Built for the modern web"
     },
     "products": {
-      "eyebrow": "Our products",
-      "title": "Small tools that solve real problems.",
-      "description": "We're building a collection of focused products designed to make everyday digital tasks faster, simpler and more organized.",
+      "eyebrow": "Products",
+      "title": "Focused software for real-world workflows.",
+      "description": "We build small, purposeful products designed to solve specific problems without unnecessary complexity.",
       "available": "Available now",
       "comingSoon": "Coming soon",
-      "snipdockDescription": "Collect text, images and links while you browse. SnipDock cleans and prepares your research so it's ready for Word, Google Docs or Notion.",
-      "discover": "Discover SnipDock",
-      "project2": "New project",
-      "project2Description": "A new productivity tool is currently being developed at OmniDock Labs.",
-      "project3": "New project",
-      "project3Description": "More focused tools are on the way."
+      "snipdockDescription": "Turn scattered web research into organized, usable information. Collect text, images and links across tabs, clean the content and move it into Word, Google Docs or Notion.",
+      "discover": "Explore SnipDock",
+      "project2": "Next product",
+      "project2Description": "A new focused productivity tool is currently being developed at OmniDock Labs.",
+      "project3": "Future product",
+      "project3Description": "More practical software products are planned as the OmniDock Labs portfolio grows."
     },
-    "about": {
-      "eyebrow": "About OmniDock Labs",
-      "title": "Useful software without unnecessary complexity.",
-      "description": "OmniDock Labs is an independent software studio building practical digital products around real, everyday problems. Our goal is simple: create tools that are easy to understand, pleasant to use and genuinely useful."
+    "principles": {
+      "eyebrow": "How we build",
+      "title": "Less friction. More useful software.",
+      "focusTitle": "Focused",
+      "focusText": "Each product is designed around a clear problem and a specific workflow.",
+      "simpleTitle": "Simple",
+      "simpleText": "We reduce unnecessary steps and keep the experience easy to understand.",
+      "usefulTitle": "Useful",
+      "usefulText": "Every feature should earn its place by making the product more valuable."
+    },
+    "company": {
+      "eyebrow": "Company",
+      "title": "Independent software, built with long-term intent.",
+      "description": "OmniDock Labs is an independent software studio creating practical digital products for the modern web.",
+      "description2": "We focus on useful tools with clear value, thoughtful product decisions and experiences that stay simple as they grow."
     },
     "contact": {
-      "title": "Want to get in touch?",
-      "description": "Questions, feedback or ideas? We'd be happy to hear from you.",
-      "button": "Contact us"
+      "eyebrow": "Contact",
+      "title": "Have something worth discussing?",
+      "description": "Questions, feedback, partnerships or product ideas are always welcome.",
+      "button": "Get in touch"
     },
     "footer": {
-      "copyright": "© 2026 OmniDock Labs. All rights reserved.",
       "privacy": "Privacy",
-      "terms": "Terms"
+      "terms": "Terms",
+      "copyright": "© 2026 OmniDock Labs. All rights reserved."
     }
   },
   "SnipDock": {
@@ -50,46 +68,67 @@
       "getPro": "Get Pro"
     },
     "hero": {
-      "badge": "Research workspace for Chrome",
-      "title1": "Collect what matters.",
-      "title2": "Keep research under control.",
-      "description": "SnipDock lets you collect text, images and links from different tabs, clean the content and prepare everything for Word, Google Docs or Notion.",
+      "badge": "Less copy-paste. More time for the actual work.",
+      "title1": "Stop wasting time",
+      "title2": "copying and organizing research.",
+      "description": "Collect text, images and sources across tabs while you browse. SnipDock brings everything together, cleans it up and prepares your research for Word, Google Docs or Notion.",
       "primary": "See Pro plans",
-      "secondary": "Explore features",
+      "secondary": "See how it works",
       "note": "Built for Chrome"
     },
     "steps": {
-      "eyebrow": "How it works",
-      "title": "Research without the copy-paste chaos.",
-      "description": "Move from scattered tabs to organized, ready-to-use content in three simple steps.",
-      "collectTitle": "1. Collect",
-      "collectText": "Save text, images and links from any tab using SnipDock's browser tools.",
-      "cleanTitle": "2. Clean",
-      "cleanText": "Remove duplicated or unnecessary web clutter and keep the useful content.",
-      "exportTitle": "3. Use",
-      "exportText": "Copy your research cleanly into Word, Google Docs, Notion and other tools."
+      "eyebrow": "From finding to using",
+      "title": "Less busywork between research and real work.",
+      "description": "SnipDock removes much of the repetitive work that usually starts after you find something useful.",
+      "collectTitle": "1. Collect while you research",
+      "collectText": "Save text, images and links across tabs without stopping to organize every piece manually.",
+      "cleanTitle": "2. Leave the clutter behind",
+      "cleanText": "Reduce duplicated content, unnecessary formatting and web clutter you would normally have to clean by hand.",
+      "exportTitle": "3. Get to work",
+      "exportText": "Move organized research into Word, Google Docs or Notion and spend your time on the content instead of copy-paste."
+    },
+    "beforeAfter": {
+      "eyebrow": "Before and after",
+      "title": "Research shouldn't mean spending hours organizing what you found.",
+      "description": "Finding information isn't the problem. It's all the manual work that comes afterwards.",
+      "beforeLabel": "WITHOUT SNIPDOCK",
+      "beforeTitle": "The usual workflow",
+      "before1": "Open dozens of tabs",
+      "before2": "Copy useful text one piece at a time",
+      "before3": "Download or save images separately",
+      "before4": "Copy links and keep track of sources",
+      "before5": "Remove unwanted formatting and clutter",
+      "before6": "Organize everything before you can use it",
+      "afterLabel": "WITH SNIPDOCK",
+      "afterTitle": "A much shorter path",
+      "after1": "Research as usual",
+      "after2": "Collect what matters while you browse",
+      "after3": "Keep text, images and sources together",
+      "after4": "Clean the collected material",
+      "after5": "Copy everything ready to work with",
+      "result": "Less mechanical work. More time to analyze, write and create."
     },
     "features": {
-      "eyebrow": "Features",
-      "title": "One place for the material you find across the web.",
-      "description": "SnipDock is designed for students, writers, researchers and anyone who regularly gathers information online.",
-      "textTitle": "Collect text",
-      "textText": "Save selected text from different tabs without interrupting your research.",
-      "imagesTitle": "Keep images",
-      "imagesText": "Store useful visual references together with the rest of your collected material.",
-      "linksTitle": "Save sources",
-      "linksText": "Keep links and source references attached to your research.",
-      "multitabTitle": "Work across tabs",
-      "multitabText": "Gather information from multiple pages into the same temporary workspace.",
-      "cleanTitle": "Clean content",
-      "cleanText": "Reduce duplicated content, unwanted formatting and common web clutter.",
-      "copyTitle": "Copy everything clean",
-      "copyText": "Prepare texts, images and sources together for pasting into your preferred workspace."
+      "eyebrow": "Everything together",
+      "title": "Stop spreading your research across tabs, files and documents.",
+      "description": "SnipDock keeps the useful parts of your research in one workspace until you're ready to use them.",
+      "textTitle": "Keep useful text",
+      "textText": "Collect the passages you actually need without constantly jumping between your browser and document.",
+      "imagesTitle": "Keep images with your research",
+      "imagesText": "Save useful visual references alongside the context where you found them.",
+      "linksTitle": "Don't lose your sources",
+      "linksText": "Keep links and references connected to your research so you don't have to find them again.",
+      "multitabTitle": "Research across tabs",
+      "multitabText": "Bring information from different pages into one workspace while you keep browsing.",
+      "cleanTitle": "Reduce cleanup work",
+      "cleanText": "Remove part of the unnecessary formatting, duplicated content and common web clutter.",
+      "copyTitle": "Move it where you work",
+      "copyText": "Prepare text, images and sources for Word, Google Docs, Notion and other tools."
     },
     "compare": {
       "eyebrow": "Free vs Pro",
-      "title": "Start free. Upgrade when SnipDock becomes part of your workflow.",
-      "description": "The free version lets you test the complete workflow before moving to Pro.",
+      "title": "Try the complete workflow for free. Go Pro when SnipDock starts saving you work.",
+      "description": "Start without paying and see whether SnipDock fits your research workflow before removing the limits.",
       "feature": "Feature",
       "free": "Free",
       "pro": "Pro",
@@ -106,14 +145,14 @@
     },
     "pricing": {
       "eyebrow": "SnipDock Pro",
-      "title": "Choose how long you want Pro access.",
-      "description": "All Pro plans unlock the same experience. Only the access period changes.",
+      "title": "When copying and organizing no longer needs to be part of the job.",
+      "description": "Every Pro plan unlocks the same unlimited experience. Simply choose how long you want access.",
       "monthly": "1 Month",
-      "monthlyNote": "Flexible access",
+      "monthlyNote": "Try Pro at your own pace",
       "monthlyPrice": "$2.99",
       "monthlyPeriod": "USD",
       "quarterly": "3 Months",
-      "quarterlyNote": "Best for regular use",
+      "quarterlyNote": "Great for regular use",
       "quarterlyPrice": "$7.49",
       "quarterlyPeriod": "USD",
       "annual": "1 Year",
@@ -123,16 +162,16 @@
       "popular": "MOST POPULAR",
       "benefit1": "Unlimited workspace",
       "benefit2": "Unlimited history",
-      "benefit3": "Full Pro functionality",
+      "benefit3": "Complete Pro experience",
       "monthlyButton": "Choose 1 Month",
       "quarterlyButton": "Choose 3 Months",
       "annualButton": "Choose 1 Year",
-      "checkoutNote": "Secure international checkout will be added before launch."
+      "checkoutNote": "Secure international checkout will be enabled before launch."
     },
     "final": {
-      "title": "Spend less time managing research.",
-      "description": "Keep what you find, clean it and move it into the tools where your work actually happens.",
-      "button": "View Pro plans"
+      "title": "Your time is better spent on the work, not the copy-paste.",
+      "description": "Spend more time understanding what you find and less time manually preparing it before you can actually use it.",
+      "button": "Start with SnipDock"
     }
   }
 }
