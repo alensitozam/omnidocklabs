@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import {getTranslations} from "next-intl/server";
+import PaddleCheckoutButton from "./PaddleCheckoutButton";
 
 /* =========================================================
    ICONS
@@ -263,6 +264,23 @@ export default async function SnipDockPage({
     t("beforeAfter.after5")
   ];
 
+  const numberLocale =
+    locale === "pt"
+      ? "pt-BR"
+      : locale === "es"
+        ? "es-CL"
+        : "en-US";
+
+  const formatUsd = (value: number) =>
+    new Intl.NumberFormat(numberLocale, {
+      style: "currency",
+      currency: "USD"
+    }).format(value);
+
+  const monthlyPrice = formatUsd(3.99);
+  const quarterlyPrice = formatUsd(9.99);
+  const annualPrice = formatUsd(29.99);
+
   return (
     <main className="min-h-screen overflow-x-hidden bg-white text-slate-950">
 
@@ -283,7 +301,6 @@ export default async function SnipDockPage({
             <span className="hidden text-slate-300 sm:block">
               /
             </span>
-
 
             <Link
               href={`/${locale}/snipdock`}
@@ -690,7 +707,6 @@ export default async function SnipDockPage({
 
           <div className="mt-14 grid gap-6 lg:grid-cols-2">
 
-            {/* WITHOUT */}
             <div className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
 
               <div className="flex items-center justify-between gap-4">
@@ -764,7 +780,6 @@ export default async function SnipDockPage({
             </div>
 
 
-            {/* WITH SNIPDOCK */}
             <div className="relative overflow-hidden rounded-[28px] bg-slate-950 p-6 text-white shadow-2xl shadow-indigo-100 sm:p-8">
 
               <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,#4f46e530,transparent_45%)]" />
@@ -985,7 +1000,9 @@ export default async function SnipDockPage({
       </section>
 
 
-      {/* PRICING */}
+      {/* =====================================================
+          PRICING + PADDLE
+      ===================================================== */}
       <section
         id="pricing"
         className="relative overflow-hidden px-5 py-20 sm:px-6 md:py-28 lg:px-8"
@@ -1026,17 +1043,16 @@ export default async function SnipDockPage({
                 {t("pricing.monthly")}
               </h3>
 
+
               <div className="mt-7 flex items-end gap-2">
 
                 <span className="text-4xl font-black tracking-tight">
-                  {t("pricing.monthlyPrice")}
+                  {monthlyPrice}
                 </span>
 
-                {t("pricing.monthlyPeriod") && (
-                  <span className="pb-1 text-sm text-slate-400">
-                    {t("pricing.monthlyPeriod")}
-                  </span>
-                )}
+                <span className="pb-1 text-sm text-slate-400">
+                  USD
+                </span>
 
               </div>
 
@@ -1049,11 +1065,13 @@ export default async function SnipDockPage({
                     key={benefit}
                     className="flex gap-3 text-sm text-slate-600"
                   >
+
                     <span className="font-bold text-indigo-600">
                       ✓
                     </span>
 
                     {benefit}
+
                   </li>
 
                 ))}
@@ -1061,12 +1079,13 @@ export default async function SnipDockPage({
               </ul>
 
 
-              <button
-                type="button"
-                className="mt-8 w-full rounded-xl border border-indigo-600 px-5 py-3.5 text-sm font-bold text-indigo-600 transition hover:bg-indigo-50"
+              <PaddleCheckoutButton
+                plan="monthly"
+                locale={locale}
+                className="mt-8 w-full rounded-xl border border-indigo-600 px-5 py-3.5 text-sm font-bold text-indigo-600 transition hover:-translate-y-0.5 hover:bg-indigo-50"
               >
                 {t("pricing.monthlyButton")}
-              </button>
+              </PaddleCheckoutButton>
 
             </div>
 
@@ -1087,17 +1106,16 @@ export default async function SnipDockPage({
                 {t("pricing.quarterly")}
               </h3>
 
+
               <div className="mt-7 flex items-end gap-2">
 
                 <span className="text-4xl font-black tracking-tight">
-                  {t("pricing.quarterlyPrice")}
+                  {quarterlyPrice}
                 </span>
 
-                {t("pricing.quarterlyPeriod") && (
-                  <span className="pb-1 text-sm text-slate-500">
-                    {t("pricing.quarterlyPeriod")}
-                  </span>
-                )}
+                <span className="pb-1 text-sm text-slate-500">
+                  USD
+                </span>
 
               </div>
 
@@ -1124,12 +1142,13 @@ export default async function SnipDockPage({
               </ul>
 
 
-              <button
-                type="button"
-                className="mt-8 w-full rounded-xl bg-white px-5 py-3.5 text-sm font-bold text-slate-950 transition hover:bg-indigo-50"
+              <PaddleCheckoutButton
+                plan="quarterly"
+                locale={locale}
+                className="mt-8 w-full rounded-xl bg-white px-5 py-3.5 text-sm font-bold text-slate-950 transition hover:-translate-y-0.5 hover:bg-indigo-50"
               >
                 {t("pricing.quarterlyButton")}
-              </button>
+              </PaddleCheckoutButton>
 
             </div>
 
@@ -1145,17 +1164,16 @@ export default async function SnipDockPage({
                 {t("pricing.annual")}
               </h3>
 
+
               <div className="mt-7 flex items-end gap-2">
 
                 <span className="text-4xl font-black tracking-tight">
-                  {t("pricing.annualPrice")}
+                  {annualPrice}
                 </span>
 
-                {t("pricing.annualPeriod") && (
-                  <span className="pb-1 text-sm text-slate-400">
-                    {t("pricing.annualPeriod")}
-                  </span>
-                )}
+                <span className="pb-1 text-sm text-slate-400">
+                  USD
+                </span>
 
               </div>
 
@@ -1182,21 +1200,43 @@ export default async function SnipDockPage({
               </ul>
 
 
-              <button
-                type="button"
-                className="mt-8 w-full rounded-xl border border-indigo-600 px-5 py-3.5 text-sm font-bold text-indigo-600 transition hover:bg-indigo-50"
+              <PaddleCheckoutButton
+                plan="annual"
+                locale={locale}
+                className="mt-8 w-full rounded-xl border border-indigo-600 px-5 py-3.5 text-sm font-bold text-indigo-600 transition hover:-translate-y-0.5 hover:bg-indigo-50"
               >
                 {t("pricing.annualButton")}
-              </button>
+              </PaddleCheckoutButton>
 
             </div>
 
           </div>
 
 
-          <p className="mt-8 text-center text-xs text-slate-400">
-            {t("pricing.checkoutNote")}
-          </p>
+          <div className="mt-8 flex items-center justify-center gap-2 text-center text-xs text-slate-400">
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              className="h-4 w-4"
+              aria-hidden="true"
+            >
+              <rect
+                x="5"
+                y="10"
+                width="14"
+                height="10"
+                rx="2"
+              />
+
+              <path d="M8 10V7a4 4 0 0 1 8 0v3" />
+            </svg>
+
+            Secure checkout powered by Paddle
+
+          </div>
 
         </div>
 
