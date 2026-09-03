@@ -125,6 +125,22 @@
       "copyTitle": "Llévalo donde trabajas",
       "copyText": "Prepara textos, imágenes y fuentes para utilizarlos en Word, Google Docs, Notion y otras herramientas."
     },
+    "mockup": {
+      "collectedLabel": "Recopilado",
+      "collectedText": "Investigación útil de otra pestaña del navegador.",
+      "sourceSaved": "Fuente guardada",
+      "workspace": "Espacio de investigación",
+      "textType": "TEXTO",
+      "textSample": "Contenido de investigación recopilado desde la web y listo para limpiar...",
+      "sourceSavedAutomatically": "Fuente guardada automáticamente",
+      "imageType": "IMAGEN",
+      "visualReferenceSaved": "Referencia visual guardada",
+      "sourceAttached": "Fuente adjunta",
+      "linkType": "ENLACE",
+      "referenceSourceSaved": "Fuente de referencia guardada con tu investigación",
+      "copyEverythingClean": "Copiar todo limpio",
+      "readyFor": "Listo para Word, Docs y Notion"
+    },
     "compare": {
       "eyebrow": "Free vs Pro",
       "title": "Prueba el flujo completo gratis. Pásate a Pro cuando SnipDock empiece a ahorrarte trabajo.",
@@ -149,15 +165,15 @@
       "description": "Todos los planes Pro desbloquean la misma experiencia sin límites. Elige solo por cuánto tiempo quieres utilizarla.",
       "monthly": "1 mes",
       "monthlyNote": "Para probar Pro a tu ritmo",
-      "monthlyPrice": "US$2,99",
+      "monthlyPrice": "US$3,99",
       "monthlyPeriod": "",
       "quarterly": "3 meses",
       "quarterlyNote": "Ideal para uso habitual",
-      "quarterlyPrice": "US$7,49",
+      "quarterlyPrice": "US$9,99",
       "quarterlyPeriod": "",
       "annual": "1 año",
       "annualNote": "Mejor valor a largo plazo",
-      "annualPrice": "US$24,99",
+      "annualPrice": "US$29,99",
       "annualPeriod": "",
       "popular": "MÁS ELEGIDO",
       "benefit1": "Espacio de trabajo ilimitado",
@@ -166,12 +182,17 @@
       "monthlyButton": "Elegir 1 mes",
       "quarterlyButton": "Elegir 3 meses",
       "annualButton": "Elegir 1 año",
-      "checkoutNote": "El pago internacional seguro se habilitará antes del lanzamiento."
+      "checkoutNote": "Pago seguro procesado por Paddle."
     },
     "final": {
       "title": "Tu tiempo vale más que copiar, pegar y ordenar información.",
       "description": "Dedica más tiempo a entender lo que encuentras y menos a preparar manualmente el material antes de poder utilizarlo.",
       "button": "Empezar con SnipDock"
+    },
+    "footer": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "contact": "Contacto"
     }
   }
 }

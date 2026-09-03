@@ -432,11 +432,11 @@ export default async function SnipDockPage({
             <div className="snip-float-left absolute -left-5 top-20 z-20 hidden w-48 rounded-2xl border border-indigo-100 bg-white p-4 shadow-xl md:block">
 
               <p className="text-[10px] font-bold uppercase tracking-wider text-indigo-500">
-                Collected
+                {t("mockup.collectedLabel")}
               </p>
 
               <p className="mt-2 text-xs leading-5 text-slate-600">
-                Useful research from another browser tab.
+                {t("mockup.collectedText")}
               </p>
 
             </div>
@@ -445,7 +445,7 @@ export default async function SnipDockPage({
             <div className="snip-float-right absolute -right-5 bottom-14 z-20 hidden w-44 rounded-2xl border border-emerald-100 bg-white p-4 shadow-xl md:block">
 
               <p className="text-[10px] font-bold uppercase tracking-wider text-emerald-600">
-                Source saved
+                {t("mockup.sourceSaved")}
               </p>
 
               <p className="mt-2 truncate text-xs text-slate-500">
@@ -489,7 +489,7 @@ export default async function SnipDockPage({
                       </p>
 
                       <p className="mt-0.5 text-xs font-medium text-slate-500">
-                        Research workspace
+                        {t("mockup.workspace")}
                       </p>
 
                     </div>
@@ -509,15 +509,15 @@ export default async function SnipDockPage({
                   <div className="rounded-xl border-l-4 border-indigo-500 bg-slate-50 p-3.5">
 
                     <p className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
-                      TEXT
+                      {t("mockup.textType")}
                     </p>
 
                     <p className="mt-2 text-xs leading-5 text-slate-700">
-                      Research content collected from the web and ready to clean...
+                      {t("mockup.textSample")}
                     </p>
 
                     <p className="mt-2 truncate text-[10px] text-slate-400">
-                      Source saved automatically
+                      {t("mockup.sourceSavedAutomatically")}
                     </p>
 
                   </div>
@@ -526,7 +526,7 @@ export default async function SnipDockPage({
                   <div className="rounded-xl border-l-4 border-orange-400 bg-slate-50 p-3.5">
 
                     <p className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
-                      IMAGE
+                      {t("mockup.imageType")}
                     </p>
 
                     <div className="mt-3 flex items-center gap-3">
@@ -536,11 +536,11 @@ export default async function SnipDockPage({
                       <div className="min-w-0">
 
                         <p className="text-xs font-medium text-slate-600">
-                          Visual reference saved
+                          {t("mockup.visualReferenceSaved")}
                         </p>
 
                         <p className="mt-1 truncate text-[10px] text-slate-400">
-                          Source attached
+                          {t("mockup.sourceAttached")}
                         </p>
 
                       </div>
@@ -553,11 +553,11 @@ export default async function SnipDockPage({
                   <div className="rounded-xl border-l-4 border-emerald-500 bg-slate-50 p-3.5">
 
                     <p className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
-                      LINK
+                      {t("mockup.linkType")}
                     </p>
 
                     <p className="mt-2 truncate text-xs text-slate-600">
-                      Reference source saved with your research
+                      {t("mockup.referenceSourceSaved")}
                     </p>
 
                   </div>
@@ -566,11 +566,11 @@ export default async function SnipDockPage({
 
 
                 <div className="mt-4 rounded-xl bg-indigo-600 px-4 py-3.5 text-center text-xs font-bold text-white shadow-md shadow-indigo-100">
-                  Copy everything clean
+                  {t("mockup.copyEverythingClean")}
                 </div>
 
                 <p className="mt-2 text-center text-[10px] text-slate-400">
-                  Ready for Word, Docs & Notion
+                  {t("mockup.readyFor")}
                 </p>
 
               </div>
@@ -1234,7 +1234,7 @@ export default async function SnipDockPage({
               <path d="M8 10V7a4 4 0 0 1 8 0v3" />
             </svg>
 
-            Secure checkout powered by Paddle
+            {t("pricing.checkoutNote")}
 
           </div>
 
@@ -1300,7 +1300,7 @@ export default async function SnipDockPage({
       {/* FOOTER */}
       <footer className="border-t border-slate-200 px-5 py-10 sm:px-6 lg:px-8">
 
-        <div className="mx-auto flex max-w-7xl flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mx-auto flex max-w-7xl flex-col gap-7 lg:flex-row lg:items-center lg:justify-between">
 
           <div className="flex items-center gap-3">
 
@@ -1327,12 +1327,37 @@ export default async function SnipDockPage({
           </div>
 
 
-          <Link
-            href={`/${locale}`}
-            className="text-sm font-semibold text-slate-500 transition hover:text-slate-950"
-          >
-            ← {t("nav.home")}
-          </Link>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm font-medium text-slate-500">
+
+            <Link
+              href={`/${locale}/privacy`}
+              className="transition hover:text-indigo-600"
+            >
+              {t("footer.privacy")}
+            </Link>
+
+            <Link
+              href={`/${locale}/terms`}
+              className="transition hover:text-indigo-600"
+            >
+              {t("footer.terms")}
+            </Link>
+
+            <a
+              href="mailto:hello@omnidocklabs.com"
+              className="transition hover:text-indigo-600"
+            >
+              {t("footer.contact")}
+            </a>
+
+            <Link
+              href={`/${locale}`}
+              className="font-semibold text-slate-600 transition hover:text-slate-950"
+            >
+              ← {t("nav.home")}
+            </Link>
+
+          </div>
 
         </div>
 

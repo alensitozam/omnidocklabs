@@ -4,9 +4,9 @@ import {notFound} from "next/navigation";
 const privacyContent = {
   en: {
     title: "Privacy Policy",
-    updated: "Last updated: August 20, 2026",
+    updated: "Last updated: September 2, 2026",
     intro:
-      "This Privacy Policy explains how OmniDock Labs handles information when you visit our website or use our products, including SnipDock.",
+      "This Privacy Policy explains how OmniDock Labs handles information when you visit our website or use our products, including the SnipDock browser extension.",
     sections: [
       {
         title: "1. Who we are",
@@ -15,240 +15,276 @@ const privacyContent = {
         ]
       },
       {
-        title: "2. Information we may collect",
+        title: "2. Information you provide to us",
         paragraphs: [
-          "The information we collect depends on how you interact with our website and products.",
-          "We may receive information that you voluntarily provide to us, such as your email address when you contact us or information required to process a purchase or provide customer support.",
-          "Our website may also receive basic technical information normally transmitted when accessing a website, such as browser type, device information, IP address and basic usage information."
+          "We may receive information that you choose to provide, such as your email address when you contact us, request support, make a purchase or receive a SnipDock Pro license.",
+          "For paid access, we may process limited purchase and license information such as your email address, the plan purchased, the access expiration date, transaction identifiers and license status."
         ]
       },
       {
-        title: "3. SnipDock and collected content",
+        title: "3. SnipDock research content stays local",
         paragraphs: [
-          "SnipDock is designed to help you collect and organize text, images, links and source information while browsing the web.",
-          "Content you collect with SnipDock may be stored locally in your browser or device when the product uses local browser storage. OmniDock Labs does not claim ownership of the content you collect.",
-          "If future SnipDock features require cloud storage or synchronization, this Privacy Policy will be updated before those features are introduced."
+          "SnipDock lets you collect text, images, links and source information that you explicitly choose while browsing the web.",
+          "The research content you collect with SnipDock is stored locally in your browser using browser storage. SnipDock does not send that collected research content to OmniDock Labs servers.",
+          "OmniDock Labs does not sell collected research content, use it for advertising or claim ownership of it.",
+          "If a future SnipDock feature requires cloud storage or synchronization, we will update this Privacy Policy and provide appropriate disclosure before introducing that feature."
         ]
       },
       {
-        title: "4. Payments",
+        title: "4. Website and technical information",
         paragraphs: [
-          "When paid products or subscriptions are available, payments may be processed by third-party payment providers. Payment providers may collect information required to complete the transaction, such as billing and payment details.",
-          "OmniDock Labs does not intend to directly store full payment card details on its own systems."
+          "When you access our website, hosting and infrastructure providers may process routine technical information required to deliver and protect the service, such as IP address, browser information, device information, request logs and security data.",
+          "We use technical information only as reasonably necessary to operate, secure, troubleshoot and improve our services."
         ]
       },
       {
-        title: "5. How we use information",
+        title: "5. Payments and license delivery",
         paragraphs: [
-          "We may use information to provide and maintain our products, process purchases, manage access to paid features, respond to support requests, prevent abuse, improve our services and comply with applicable legal obligations."
+          "SnipDock Pro is sold as one-time purchases for fixed access periods. Payments are processed by Paddle. Paddle may collect billing, payment and transaction information required to complete a purchase and meet its legal obligations.",
+          "OmniDock Labs does not directly store full payment card details.",
+          "We may use transactional email providers, including Resend, to deliver license codes and service-related messages. These providers receive only the information reasonably necessary to send those communications."
         ]
       },
       {
-        title: "6. Sharing of information",
+        title: "6. How we use personal information",
+        paragraphs: [
+          "We may use personal information to process purchases, generate and manage licenses, deliver Pro access, respond to support requests, prevent fraud or abuse, maintain security, troubleshoot problems and comply with applicable legal obligations.",
+          "We do not use SnipDock research content for profiling, advertising or unrelated purposes because that content is not transmitted to OmniDock Labs."
+        ]
+      },
+      {
+        title: "7. Service providers and sharing",
         paragraphs: [
           "We do not sell your personal information.",
-          "Information may be shared with service providers when necessary to operate the website, process payments, provide infrastructure or comply with legal requirements."
+          "We may share limited information with service providers when necessary to operate our website and backend, process payments, deliver transactional email, host infrastructure, protect our services or comply with legal requirements.",
+          "Service providers process information according to their own terms and privacy obligations."
         ]
       },
       {
-        title: "7. Data retention",
+        title: "8. Data retention",
         paragraphs: [
-          "We retain personal information only for as long as reasonably necessary for the purposes described in this policy, including legal, accounting, security and operational requirements."
+          "Research content stored by SnipDock remains in your local browser storage until you remove it, clear the relevant browser data or uninstall the extension, subject to browser behavior.",
+          "Purchase, license and support information is retained only for as long as reasonably necessary to provide the service, maintain license records, prevent abuse and satisfy legal, accounting, security and operational requirements."
         ]
       },
       {
-        title: "8. Security",
+        title: "9. Security",
         paragraphs: [
-          "We use reasonable technical and organizational measures intended to protect information. However, no online service or storage system can guarantee absolute security."
+          "We use reasonable technical and organizational measures intended to protect information handled by our systems. However, no online service or storage system can guarantee absolute security."
         ]
       },
       {
-        title: "9. Your rights",
+        title: "10. Your choices and rights",
         paragraphs: [
-          "Depending on where you live, applicable privacy laws may give you rights regarding your personal information, including rights to request access, correction or deletion.",
-          "You may contact us to make a privacy-related request."
+          "You control what content you choose to collect with SnipDock and can remove locally stored content using the extension or browser controls.",
+          "Depending on where you live, applicable privacy laws may give you rights regarding personal information held by OmniDock Labs, including rights to request access, correction or deletion. You may contact us to make a privacy-related request."
         ]
       },
       {
-        title: "10. Changes to this policy",
+        title: "11. Changes to this policy",
         paragraphs: [
-          "We may update this Privacy Policy as our products, business or legal obligations evolve. The latest version will be published on this page with an updated revision date."
+          "We may update this Privacy Policy as our products, service providers or legal obligations evolve. The latest version will be published on this page with an updated revision date."
         ]
       },
       {
-        title: "11. Contact",
+        title: "12. Contact",
         paragraphs: [
           "For privacy questions or requests, contact OmniDock Labs at hello@omnidocklabs.com."
         ]
       }
     ],
-    back: "Back to OmniDock Labs"
+    back: "Back to OmniDock Labs",
+    terms: "Terms of Service"
   },
 
   es: {
     title: "Política de Privacidad",
-    updated: "Última actualización: 20 de agosto de 2026",
+    updated: "Última actualización: 2 de septiembre de 2026",
     intro:
-      "Esta Política de Privacidad explica cómo OmniDock Labs trata la información cuando visitas nuestro sitio web o utilizas nuestros productos, incluido SnipDock.",
+      "Esta Política de Privacidad explica cómo OmniDock Labs trata la información cuando visitas nuestro sitio web o utilizas nuestros productos, incluida la extensión para navegador SnipDock.",
     sections: [
       {
         title: "1. Quiénes somos",
         paragraphs: [
-          "OmniDock Labs es un estudio independiente de software dedicado al desarrollo de herramientas digitales y extensiones para navegadores, entre ellas SnipDock."
+          "OmniDock Labs es un estudio independiente de software que desarrolla herramientas digitales y extensiones para navegadores, entre ellas SnipDock."
         ]
       },
       {
-        title: "2. Información que podemos recopilar",
+        title: "2. Información que nos proporcionas",
         paragraphs: [
-          "La información que recopilamos depende de la forma en que interactúes con nuestro sitio web y nuestros productos.",
-          "Podemos recibir información que nos entregues voluntariamente, como tu correo electrónico cuando nos contactas o la información necesaria para procesar una compra o prestar soporte.",
-          "Nuestro sitio también puede recibir información técnica básica transmitida normalmente al acceder a una página web, como tipo de navegador, información del dispositivo, dirección IP y datos básicos de uso."
+          "Podemos recibir información que decidas proporcionarnos, como tu correo electrónico cuando nos contactas, solicitas soporte, realizas una compra o recibes una licencia de SnipDock Pro.",
+          "Para el acceso de pago, podemos tratar información limitada de compra y licencia, como tu correo electrónico, el plan adquirido, la fecha de vencimiento del acceso, identificadores de la transacción y el estado de la licencia."
         ]
       },
       {
-        title: "3. SnipDock y el contenido recopilado",
+        title: "3. El contenido de investigación de SnipDock permanece local",
         paragraphs: [
-          "SnipDock está diseñado para ayudarte a recopilar y organizar textos, imágenes, enlaces e información sobre sus fuentes mientras navegas por internet.",
-          "El contenido recopilado mediante SnipDock puede almacenarse localmente en tu navegador o dispositivo cuando el producto utiliza el almacenamiento local del navegador. OmniDock Labs no reclama propiedad sobre el contenido que recopilas.",
-          "Si en el futuro SnipDock incorpora funciones que requieran almacenamiento o sincronización en la nube, esta Política de Privacidad será actualizada antes de introducir dichas funciones."
+          "SnipDock te permite recopilar textos, imágenes, enlaces e información de fuentes que eliges expresamente mientras navegas por internet.",
+          "El contenido de investigación que recopilas con SnipDock se almacena localmente en tu navegador mediante el almacenamiento del navegador. SnipDock no envía ese contenido de investigación a los servidores de OmniDock Labs.",
+          "OmniDock Labs no vende el contenido de investigación recopilado, no lo utiliza con fines publicitarios y no reclama propiedad sobre él.",
+          "Si en el futuro una función de SnipDock requiere almacenamiento o sincronización en la nube, actualizaremos esta Política de Privacidad y proporcionaremos la información correspondiente antes de introducir dicha función."
         ]
       },
       {
-        title: "4. Pagos",
+        title: "4. Sitio web e información técnica",
         paragraphs: [
-          "Cuando estén disponibles productos o suscripciones de pago, las transacciones podrán ser procesadas por proveedores externos de pagos. Estos proveedores podrán recopilar la información necesaria para completar la transacción, como datos de facturación y pago.",
-          "OmniDock Labs no tiene previsto almacenar directamente los datos completos de tarjetas de pago en sus propios sistemas."
+          "Cuando accedes a nuestro sitio web, los proveedores de alojamiento e infraestructura pueden tratar información técnica habitual necesaria para entregar y proteger el servicio, como dirección IP, información del navegador y del dispositivo, registros de solicitudes y datos de seguridad.",
+          "Utilizamos la información técnica únicamente cuando es razonablemente necesario para operar, proteger, diagnosticar y mejorar nuestros servicios."
         ]
       },
       {
-        title: "5. Cómo utilizamos la información",
+        title: "5. Pagos y entrega de licencias",
         paragraphs: [
-          "Podemos utilizar la información para proporcionar y mantener nuestros productos, procesar compras, administrar el acceso a funciones de pago, responder solicitudes de soporte, prevenir abusos, mejorar nuestros servicios y cumplir las obligaciones legales aplicables."
+          "SnipDock Pro se vende mediante pagos únicos por períodos fijos de acceso. Los pagos son procesados por Paddle. Paddle puede recopilar la información de facturación, pago y transacción necesaria para completar una compra y cumplir sus obligaciones legales.",
+          "OmniDock Labs no almacena directamente los datos completos de tarjetas de pago.",
+          "Podemos utilizar proveedores de correo transaccional, incluido Resend, para entregar códigos de licencia y mensajes relacionados con el servicio. Estos proveedores reciben únicamente la información razonablemente necesaria para enviar dichas comunicaciones."
         ]
       },
       {
-        title: "6. Cuándo compartimos información",
+        title: "6. Cómo utilizamos la información personal",
+        paragraphs: [
+          "Podemos utilizar información personal para procesar compras, generar y administrar licencias, habilitar el acceso Pro, responder solicitudes de soporte, prevenir fraude o abuso, mantener la seguridad, resolver problemas y cumplir obligaciones legales aplicables.",
+          "No utilizamos el contenido de investigación de SnipDock para perfiles, publicidad ni fines ajenos al producto porque ese contenido no se transmite a OmniDock Labs."
+        ]
+      },
+      {
+        title: "7. Proveedores de servicios y divulgación",
         paragraphs: [
           "No vendemos tu información personal.",
-          "Podemos compartir información con proveedores de servicios cuando sea necesario para operar el sitio web, procesar pagos, proporcionar infraestructura o cumplir obligaciones legales."
+          "Podemos compartir información limitada con proveedores cuando sea necesario para operar nuestro sitio web y backend, procesar pagos, entregar correos transaccionales, alojar infraestructura, proteger nuestros servicios o cumplir requisitos legales.",
+          "Los proveedores de servicios tratan la información de acuerdo con sus propios términos y obligaciones de privacidad."
         ]
       },
       {
-        title: "7. Conservación de los datos",
+        title: "8. Conservación de los datos",
         paragraphs: [
-          "Conservamos la información personal únicamente durante el tiempo razonablemente necesario para los fines descritos en esta política y para cumplir requisitos legales, contables, operativos y de seguridad."
+          "El contenido de investigación almacenado por SnipDock permanece en el almacenamiento local de tu navegador hasta que lo elimines, borres los datos correspondientes del navegador o desinstales la extensión, sujeto al funcionamiento del navegador.",
+          "La información de compras, licencias y soporte se conserva únicamente durante el tiempo razonablemente necesario para proporcionar el servicio, mantener registros de licencias, prevenir abusos y cumplir requisitos legales, contables, operativos y de seguridad."
         ]
       },
       {
-        title: "8. Seguridad",
+        title: "9. Seguridad",
         paragraphs: [
-          "Aplicamos medidas técnicas y organizativas razonables destinadas a proteger la información. Sin embargo, ningún servicio online o sistema de almacenamiento puede garantizar una seguridad absoluta."
+          "Aplicamos medidas técnicas y organizativas razonables destinadas a proteger la información tratada por nuestros sistemas. Sin embargo, ningún servicio online o sistema de almacenamiento puede garantizar una seguridad absoluta."
         ]
       },
       {
-        title: "9. Tus derechos",
+        title: "10. Tus opciones y derechos",
         paragraphs: [
-          "Dependiendo del país en el que vivas, la legislación aplicable puede otorgarte derechos sobre tu información personal, incluidos derechos de acceso, rectificación o eliminación.",
-          "Puedes contactarnos para realizar una solicitud relacionada con privacidad."
+          "Tú controlas qué contenido decides recopilar con SnipDock y puedes eliminar el contenido almacenado localmente mediante la extensión o los controles del navegador.",
+          "Dependiendo del lugar donde vivas, la legislación aplicable puede otorgarte derechos respecto de la información personal que mantiene OmniDock Labs, incluidos derechos de acceso, rectificación o eliminación. Puedes contactarnos para realizar una solicitud relacionada con privacidad."
         ]
       },
       {
-        title: "10. Cambios a esta política",
+        title: "11. Cambios a esta política",
         paragraphs: [
-          "Podemos actualizar esta Política de Privacidad a medida que evolucionen nuestros productos, nuestro negocio o nuestras obligaciones legales. La versión más reciente se publicará en esta página indicando su fecha de actualización."
+          "Podemos actualizar esta Política de Privacidad a medida que evolucionen nuestros productos, proveedores de servicios u obligaciones legales. La versión más reciente se publicará en esta página indicando su fecha de actualización."
         ]
       },
       {
-        title: "11. Contacto",
+        title: "12. Contacto",
         paragraphs: [
           "Para consultas o solicitudes relacionadas con privacidad, puedes contactar a OmniDock Labs en hello@omnidocklabs.com."
         ]
       }
     ],
-    back: "Volver a OmniDock Labs"
+    back: "Volver a OmniDock Labs",
+    terms: "Términos de Servicio"
   },
 
   pt: {
     title: "Política de Privacidade",
-    updated: "Última atualização: 20 de agosto de 2026",
+    updated: "Última atualização: 2 de setembro de 2026",
     intro:
-      "Esta Política de Privacidade explica como a OmniDock Labs trata informações quando você visita nosso site ou utiliza nossos produtos, incluindo o SnipDock.",
+      "Esta Política de Privacidade explica como a OmniDock Labs trata informações quando você visita nosso site ou utiliza nossos produtos, incluindo a extensão de navegador SnipDock.",
     sections: [
       {
         title: "1. Quem somos",
         paragraphs: [
-          "A OmniDock Labs é um estúdio independente de software dedicado ao desenvolvimento de ferramentas digitais e extensões para navegadores, incluindo o SnipDock."
+          "A OmniDock Labs é um estúdio independente de software que desenvolve ferramentas digitais e extensões para navegadores, incluindo o SnipDock."
         ]
       },
       {
-        title: "2. Informações que podemos coletar",
+        title: "2. Informações fornecidas por você",
         paragraphs: [
-          "As informações coletadas dependem da forma como você interage com nosso site e nossos produtos.",
-          "Podemos receber informações fornecidas voluntariamente por você, como seu endereço de e-mail ao entrar em contato conosco ou dados necessários para processar uma compra ou prestar suporte.",
-          "Nosso site também pode receber informações técnicas básicas normalmente transmitidas durante o acesso a uma página, como tipo de navegador, informações do dispositivo, endereço IP e dados básicos de uso."
+          "Podemos receber informações que você escolha fornecer, como seu endereço de e-mail ao entrar em contato conosco, solicitar suporte, realizar uma compra ou receber uma licença do SnipDock Pro.",
+          "Para o acesso pago, podemos tratar informações limitadas de compra e licença, como seu e-mail, o plano adquirido, a data de expiração do acesso, identificadores da transação e o status da licença."
         ]
       },
       {
-        title: "3. SnipDock e o conteúdo coletado",
+        title: "3. O conteúdo de pesquisa do SnipDock permanece local",
         paragraphs: [
-          "O SnipDock foi desenvolvido para ajudar você a coletar e organizar textos, imagens, links e informações sobre suas fontes enquanto navega pela internet.",
-          "O conteúdo coletado pelo SnipDock pode ser armazenado localmente no navegador ou dispositivo quando o produto utiliza o armazenamento local do navegador. A OmniDock Labs não reivindica propriedade sobre o conteúdo que você coleta.",
-          "Caso futuras funcionalidades do SnipDock exijam armazenamento ou sincronização na nuvem, esta Política de Privacidade será atualizada antes que esses recursos sejam disponibilizados."
+          "O SnipDock permite coletar textos, imagens, links e informações de fontes que você escolhe explicitamente enquanto navega pela internet.",
+          "O conteúdo de pesquisa coletado com o SnipDock é armazenado localmente no navegador por meio do armazenamento do navegador. O SnipDock não envia esse conteúdo de pesquisa aos servidores da OmniDock Labs.",
+          "A OmniDock Labs não vende o conteúdo de pesquisa coletado, não o utiliza para publicidade e não reivindica propriedade sobre ele.",
+          "Se uma futura funcionalidade do SnipDock exigir armazenamento ou sincronização na nuvem, atualizaremos esta Política de Privacidade e forneceremos a divulgação adequada antes de introduzir essa funcionalidade."
         ]
       },
       {
-        title: "4. Pagamentos",
+        title: "4. Site e informações técnicas",
         paragraphs: [
-          "Quando produtos ou assinaturas pagas estiverem disponíveis, os pagamentos poderão ser processados por provedores externos. Esses provedores poderão coletar as informações necessárias para concluir a transação, como dados de cobrança e pagamento.",
-          "A OmniDock Labs não pretende armazenar diretamente os dados completos de cartões de pagamento em seus próprios sistemas."
+          "Ao acessar nosso site, provedores de hospedagem e infraestrutura podem tratar informações técnicas rotineiras necessárias para entregar e proteger o serviço, como endereço IP, informações do navegador e do dispositivo, registros de solicitações e dados de segurança.",
+          "Utilizamos informações técnicas somente quando razoavelmente necessário para operar, proteger, diagnosticar e melhorar nossos serviços."
         ]
       },
       {
-        title: "5. Como usamos as informações",
+        title: "5. Pagamentos e entrega de licenças",
         paragraphs: [
-          "Podemos utilizar informações para fornecer e manter nossos produtos, processar compras, administrar o acesso a recursos pagos, responder solicitações de suporte, prevenir abusos, melhorar nossos serviços e cumprir obrigações legais aplicáveis."
+          "O SnipDock Pro é vendido por meio de pagamentos únicos para períodos fixos de acesso. Os pagamentos são processados pela Paddle. A Paddle pode coletar informações de cobrança, pagamento e transação necessárias para concluir uma compra e cumprir suas obrigações legais.",
+          "A OmniDock Labs não armazena diretamente os dados completos de cartões de pagamento.",
+          "Podemos utilizar provedores de e-mail transacional, incluindo a Resend, para entregar códigos de licença e mensagens relacionadas ao serviço. Esses provedores recebem somente as informações razoavelmente necessárias para enviar essas comunicações."
         ]
       },
       {
-        title: "6. Compartilhamento de informações",
+        title: "6. Como usamos informações pessoais",
+        paragraphs: [
+          "Podemos utilizar informações pessoais para processar compras, gerar e administrar licenças, liberar o acesso Pro, responder solicitações de suporte, prevenir fraude ou abuso, manter a segurança, resolver problemas e cumprir obrigações legais aplicáveis.",
+          "Não utilizamos o conteúdo de pesquisa do SnipDock para criação de perfis, publicidade ou finalidades não relacionadas ao produto porque esse conteúdo não é transmitido à OmniDock Labs."
+        ]
+      },
+      {
+        title: "7. Prestadores de serviços e compartilhamento",
         paragraphs: [
           "Não vendemos suas informações pessoais.",
-          "Informações podem ser compartilhadas com prestadores de serviços quando isso for necessário para operar o site, processar pagamentos, fornecer infraestrutura ou cumprir obrigações legais."
+          "Podemos compartilhar informações limitadas com prestadores de serviços quando necessário para operar nosso site e backend, processar pagamentos, entregar e-mails transacionais, hospedar infraestrutura, proteger nossos serviços ou cumprir requisitos legais.",
+          "Os prestadores de serviços tratam informações de acordo com seus próprios termos e obrigações de privacidade."
         ]
       },
       {
-        title: "7. Retenção de dados",
+        title: "8. Retenção de dados",
         paragraphs: [
-          "Mantemos informações pessoais somente pelo período razoavelmente necessário para as finalidades descritas nesta política e para atender requisitos legais, contábeis, operacionais e de segurança."
+          "O conteúdo de pesquisa armazenado pelo SnipDock permanece no armazenamento local do navegador até que você o exclua, limpe os dados correspondentes do navegador ou desinstale a extensão, sujeito ao funcionamento do navegador.",
+          "Informações de compra, licença e suporte são mantidas somente pelo período razoavelmente necessário para fornecer o serviço, manter registros de licenças, prevenir abusos e cumprir requisitos legais, contábeis, operacionais e de segurança."
         ]
       },
       {
-        title: "8. Segurança",
+        title: "9. Segurança",
         paragraphs: [
-          "Adotamos medidas técnicas e organizacionais razoáveis destinadas a proteger as informações. No entanto, nenhum serviço online ou sistema de armazenamento pode garantir segurança absoluta."
+          "Adotamos medidas técnicas e organizacionais razoáveis destinadas a proteger as informações tratadas por nossos sistemas. No entanto, nenhum serviço online ou sistema de armazenamento pode garantir segurança absoluta."
         ]
       },
       {
-        title: "9. Seus direitos",
+        title: "10. Suas escolhas e direitos",
         paragraphs: [
-          "Dependendo do país onde você reside, a legislação aplicável pode garantir direitos relacionados às suas informações pessoais, incluindo acesso, correção ou exclusão.",
-          "Você pode entrar em contato conosco para fazer uma solicitação relacionada à privacidade."
+          "Você controla o conteúdo que escolhe coletar com o SnipDock e pode remover o conteúdo armazenado localmente por meio da extensão ou dos controles do navegador.",
+          "Dependendo de onde você mora, a legislação aplicável pode garantir direitos sobre informações pessoais mantidas pela OmniDock Labs, incluindo direitos de acesso, correção ou exclusão. Você pode entrar em contato conosco para fazer uma solicitação relacionada à privacidade."
         ]
       },
       {
-        title: "10. Alterações nesta política",
+        title: "11. Alterações nesta política",
         paragraphs: [
-          "Podemos atualizar esta Política de Privacidade conforme nossos produtos, nosso negócio ou nossas obrigações legais evoluam. A versão mais recente será publicada nesta página com a respectiva data de atualização."
+          "Podemos atualizar esta Política de Privacidade conforme nossos produtos, prestadores de serviços ou obrigações legais evoluam. A versão mais recente será publicada nesta página com a respectiva data de atualização."
         ]
       },
       {
-        title: "11. Contato",
+        title: "12. Contato",
         paragraphs: [
           "Para dúvidas ou solicitações relacionadas à privacidade, entre em contato com a OmniDock Labs pelo e-mail hello@omnidocklabs.com."
         ]
       }
     ],
-    back: "Voltar para a OmniDock Labs"
+    back: "Voltar para a OmniDock Labs",
+    terms: "Termos de Serviço"
   }
 } as const;
 
@@ -267,13 +303,9 @@ export default async function PrivacyPage({
 
   return (
     <main className="min-h-screen bg-white text-slate-900">
-
       <nav className="border-b border-slate-200">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
-          <Link
-            href={`/${locale}`}
-            className="text-xl font-bold tracking-tight"
-          >
+          <Link href={`/${locale}`} className="text-xl font-bold tracking-tight">
             OmniDock<span className="text-indigo-600"> Labs</span>
           </Link>
 
@@ -287,7 +319,6 @@ export default async function PrivacyPage({
       </nav>
 
       <article className="mx-auto max-w-3xl px-6 py-16 md:py-24">
-
         <header className="border-b border-slate-200 pb-10">
           <p className="text-sm font-semibold uppercase tracking-wider text-indigo-600">
             OmniDock Labs
@@ -297,9 +328,7 @@ export default async function PrivacyPage({
             {content.title}
           </h1>
 
-          <p className="mt-4 text-sm text-slate-500">
-            {content.updated}
-          </p>
+          <p className="mt-4 text-sm text-slate-500">{content.updated}</p>
 
           <p className="mt-8 text-lg leading-8 text-slate-600">
             {content.intro}
@@ -315,10 +344,7 @@ export default async function PrivacyPage({
 
               <div className="mt-5 space-y-4">
                 {section.paragraphs.map((paragraph) => (
-                  <p
-                    key={paragraph}
-                    className="leading-8 text-slate-600"
-                  >
+                  <p key={paragraph} className="leading-8 text-slate-600">
                     {paragraph}
                   </p>
                 ))}
@@ -327,21 +353,25 @@ export default async function PrivacyPage({
           ))}
         </div>
 
+        <div className="mt-16 border-t border-slate-200 pt-8">
+          <Link
+            href={`/${locale}/terms`}
+            className="font-semibold text-indigo-600 transition hover:text-indigo-700"
+          >
+            {content.terms} →
+          </Link>
+        </div>
       </article>
 
       <footer className="border-t border-slate-200 px-6 py-8">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 text-sm text-slate-500 sm:flex-row">
           <p>© 2026 OmniDock Labs</p>
 
-          <Link
-            href={`/${locale}`}
-            className="transition hover:text-indigo-600"
-          >
+          <Link href={`/${locale}`} className="transition hover:text-indigo-600">
             {content.back}
           </Link>
         </div>
       </footer>
-
     </main>
   );
 }
